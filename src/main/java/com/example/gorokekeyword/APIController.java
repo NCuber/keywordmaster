@@ -19,12 +19,12 @@ public class APIController {
     private RestTemplate restTemplate;
 
     // API 키 입력.
-    private String clientId_search =  "0N9OFLcr2GZ3e_kI74Ou";
-    private String clientSecret_search =  "lc4Q5dNDCC";
+    private String clientId_search =  "Input your ID";
+    private String clientSecret_search =  "Input your Secret";
 
-    private String clientId_relate =  "0100000000558e5a5dc8986a2a7c5dd47f1e24120b820c452a00fe3c3ec79198bb7789f076";
-    private String clientSecret_relate =  "AQAAAABVjlpdyJhqKnxd1H8eJBILxL+HdOF04Co5rdRCnejrRw==";
-    private String customerId_relate = "2332111";
+    private String clientId_relate =  "Input your ID";
+    private String clientSecret_relate =  "Input your Secret";
+    private String customerId_relate = "Input your customerID";
     private String signatureID_relate = null;
 
     // 생성자
@@ -76,7 +76,7 @@ public class APIController {
         }
         catch(Exception e){
             System.out.println("알수 없는 오류 발생, 3초 대기합니다.");
-            System.out.println(e);
+            e.printStackTrace();
 
             try {
                 Thread.sleep(3000);

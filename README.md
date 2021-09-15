@@ -14,23 +14,23 @@
 - 셀레니움
 
 디렉토리
-- /src/..
-  - APIController.java : 네이버 api 사용
-  - Category.java : 쇼핑 인사이트 카테고리
-  - DemoApplication.java 
-  - ExceptWord.java : 필터링 단어
-  - InsightSearch.java : 쇼핑 인사이트 검색
-  - JavaConfig.java 
-  - MainController.java
-  - ServletInitializer.java
-  - Signatures.java : 시그니처 키 생성
-  - /model
-    - blogItem.java : 블로그 게시물 저장용
-    - blogModel.java : 검색 API 저장용
-    - calculatorModel.java : 최종 결과
-    - keywordList.java : 키워드 도구 API 결과
-    - relateModel.java : 키워드 도구 API 저장용
-    
-- /webapp/..
-  - insight.jsp : 쇼핑인사이트 검색창
-  - main.jsp : 키워드 마스터 검색창
+- /src/main
+  - /java/...
+    - APIController.java : 네이버 api 사용
+    - Category.java : 쇼핑 인사이트 카테고리
+    - DemoApplication.java 
+    - ExceptWord.java : 필터링 단어
+    - InsightSearch.java : 쇼핑 인사이트 검색
+    - JavaConfig.java 
+    - MainController.java
+    - ServletInitializer.java
+    - Signatures.java : 시그니처 키 생성
+    - /model
+      - blogItem.java : 블로그 게시물 저장용
+      - blogModel.java : 검색 API 저장용
+      - calculatorModel.java : 최종 결과
+      - keywordList.java : 키워드 도구 API 결과
+      - relateModel.java : 키워드 도구 API 저장용
+  - /webapp/..
+    - insight.jsp : 쇼핑인사이트 검색창
+    - main.jsp : 키워드 마스터 검색창

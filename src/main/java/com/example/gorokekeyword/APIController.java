@@ -18,10 +18,11 @@ import java.security.SignatureException;
 public class APIController {
     private RestTemplate restTemplate;
 
-    // API 키 입력.
+    // 검색 API 키 입력.
     private String clientId_search =  "Input your ID";
     private String clientSecret_search =  "Input your Secret";
 
+    // 키워드 도구 API 키 입력.
     private String clientId_relate =  "Input your ID";
     private String clientSecret_relate =  "Input your Secret";
     private String customerId_relate = "Input your customerID";
